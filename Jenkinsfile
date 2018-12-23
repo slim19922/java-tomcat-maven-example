@@ -18,11 +18,7 @@ pipeline {
                 }
             }
 
-}              
-        stage ('deploy') {
-            steps{
-               build job : 'deploy package staging'
-            }
+
         }
     }
 }
